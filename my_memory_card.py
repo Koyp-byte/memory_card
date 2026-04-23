@@ -23,6 +23,9 @@ question_list.append(Question(
 question_list.append(Question(
     'Го в доту?', 'ДА!!!', 'Нет', 'Возможно', 'Позже'
 ))
+question_list.append(Question(
+    'Лучшая оценка в школе ', 'Лучшая', '3', '2', '5'
+))
 app = QApplication([])
 main_win = QWidget()
 main_win.setWindowTitle('Memory Card')
